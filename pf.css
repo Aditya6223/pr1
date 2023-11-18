@@ -1,15 +1,14 @@
 body{
     text-align: center;
+    border: 5px solid black;
+    background-color: rgb(190, 222, 236);
 }
 header{
     background-color: black;
-    color: lightcoral;
+    color:azure;
     padding: 20px;
 }
-header mark{
-    background-color: rgb(120, 117, 111);
-    color: antiquewhite;
-}
+
 nav ul li{
     display: inline;
 }
@@ -24,19 +23,18 @@ img{
     width: 200px;
     border-radius: 50%;
     background-color: beige;
+    margin-left: 50px;
 }
-#Home p{
-    background-color: rgb(235, 235, 159);
-}
+
 #Home h2{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 #Bio p{
-    background-color:rgb(236, 204, 156);
+    background-color: lightgray;
     padding: 50px;
 }
 #PortFolio p{
-    background-color: blanchedalmond;
+    background-color: rgb(180, 197, 208);
     padding: 20px;
 }
 li{
@@ -44,15 +42,9 @@ li{
     padding: 20px;
 }
 #Skills{
-    background-color: rgb(145, 230, 190);
-}
-#Contact{
-    background-color: lightsalmon;
+    background-color: rgb(211, 211, 194);
 }
 footer{
-    background-color: rgb(80, 202, 202);
-}
-body{
-    border: 5px solid black;
-    background: skyblue;
+    background-color: rgb(9, 9, 9);
+    color: azure;
 }
