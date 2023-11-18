@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form{
+        text-align: center;
+        background-color: rgb(37, 237, 234);
+        margin-right: 200px;
+        margin-left: 200px;
+    }
+    h2{
+        text-align:center;
+        background-color: rgb(202, 226, 43);
+    }
+    label{
+        display:block;
+        text-align: center;
+    }
+    input[type=text],
+    input[type=tel],
+    input[type=email],
+    input[type=password],
+    textarea,select{
+        border-radius: 10px;
+        background-color: lemonchiffon;
+    }
+    input[type=submit]{
+        background-color:lightcoral;
+        cursor:pointer;
+    }
+    input[type=submit]:hover{
+        background-color: lightgreen;
+    }
+</style>
+<body>
+   <h2>Registration Form</h2>
+    <form action="https://formspree.io/f/mwkdjbgr" method="post">
+        <label>Name</label>
+        <input type="text" name="name" required>
+        <label>Email</label>
+        <input type="email" email="Email" required>
+        <label>Password</label>
+        <input type="password" Password="Password" required>
+        <label>Phone Number</label>
+        <input type="tel" Phone Number="Phone Number" required>
+        <label>Gender</label>
+        <select>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">Others</option>
+        </select>
+        <label>Zipcode</label>
+        <input type="text" Zipcode="Zipcode" required>
+        <label>About</label>
+        <textarea name="About"></textarea>
+        <label></label>
+        <input type="submit" value="Register">
+    </form>
+
+</body>
+</html>
