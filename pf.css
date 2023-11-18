@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+}
+header{
+    background-color: black;
+    color: lightcoral;
+    padding: 20px;
+}
+header mark{
+    background-color: rgb(120, 117, 111);
+    color: antiquewhite;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    padding: 10px;
+    color: bisque;
+    font-size: 20px;
+    text-decoration: none;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: beige;
+}
+#Home p{
+    background-color: rgb(235, 235, 159);
+}
+#Home h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#Bio p{
+    background-color:rgb(236, 204, 156);
+    padding: 50px;
+}
+#PortFolio p{
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+li{
+    display: inline;
+    padding: 20px;
+}
+#Skills{
+    background-color: rgb(145, 230, 190);
+}
+#Contact{
+    background-color: lightsalmon;
+}
+footer{
+    background-color: rgb(80, 202, 202);
+}
+body{
+    border: 5px solid black;
+    background: skyblue;
+}
