@@ -11,6 +11,7 @@
         background-color: rgb(37, 237, 234);
         margin-right: 200px;
         margin-left: 200px;
+        border: 5px solid black;
     }
     h2{
         text-align:center;
@@ -24,6 +25,13 @@
     input[type=tel],
     input[type=email],
     input[type=password],
+    input[type=datetime-local],
+    input[type=month],
+    input[type=number],
+    input[type=time],
+    input[type=week],
+    input[type=search],
+    input[type=url],
     textarea,select{
         border-radius: 10px;
         background-color: lemonchiffon;
@@ -35,12 +43,32 @@
     input[type=submit]:hover{
         background-color: lightgreen;
     }
+    input[type=reset]{
+        background-color:rgb(240, 219, 128);
+        cursor:pointer;
+    }
+    input[type=reset]:hover{
+        background-color: rgb(117, 203, 117);
+    }
 </style>
 <body>
    <h2>Registration Form</h2>
     <form action="https://formspree.io/f/mwkdjbgr" method="post">
+        <input type="image" src="i.jpg" alt="Submit" width="48" height="48"> 
         <label>Name</label>
         <input type="text" name="name" required>
+        <label>Birthday</label>
+        <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+        <label>Birthday Month</label>
+        <input type="month" id="bdaymonth" name="bdaymonth">
+        <br><input type="checkbox" id="subject1" name=" subject1" value="18years">
+        <label for=" subject1"> Are you 18 years old? </label>
+        <label>Your favorite color</label>
+        <input type="color" id="favcolor" name="favcolor">
+        <label for="fname">EMP ID</label>
+        <input type="text" id="fname" name="fname">
+        <input type="hidden" id="custId" name="custId" value="3487">
+        <input type="submit" value="Submit"> 
         <label>Email</label>
         <input type="email" email="Email" required>
         <label>Password</label>
@@ -53,12 +81,37 @@
             <option value="Female">Female</option>
             <option value="Others">Others</option>
         </select>
+        <label>Your ID</label>
+        <input type="file" id="myfile" name="myfile">
+        <label>Are you a?</label>
+        <input type="button" onclick="alert('Choose an option')" value="Choose an option">
+        <select>
+            <option value="student">student</option>
+            <option value="Employee">Employee</option>
+            <option value="Business">Business</option>
+        </select>
+        <label>Your 12<sup>th</sup> grade</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="10"> 
+        <label>Your Coding Skills</label>
+        <input type="range" id="vol" name="vol" min="1" max="10">
+        <br><input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label>
+        <br><input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
         <label>Zipcode</label>
         <input type="text" Zipcode="Zipcode" required>
+        <label>Current Time</label>
+        <input type="time" id="appt" name="appt"> 
+        <label>Current Week</label>
+        <input type="week" id="week" name="week"> 
         <label>About</label>
         <textarea name="About"></textarea>
+        <label for="gsearch">Search Google</label>
+        <input type="search" id="gsearch" name="gsearch"> 
+        <label>Your LinkedIn</label>
+        <input type="url" id="homepage" name="homepage">
         <label></label>
-        <input type="submit" value="Register">
+        <br><input type="submit" value="Register">  <input type="reset"> 
     </form>
 
 </body>
