@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(250, 229, 198);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    background-color: rgb(171, 192, 242);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+}
+
+.display {
+    background-color: #e57474;
+    border-radius: 5px;
+    padding: 10px;
+    color: #f0eaea;
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #6c6c6c;
+    border: none;
+    color: #ffffff;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #7c7c7c;
+}
+
+button:active {
+    background-color: #5c5c5c;
+    box-shadow: 0 5px #2d2d2d;
+    transform: translateY(4px);
+}
+
+/* Special Buttons */
+
+.clear {
+    background-color: #f24b4b;
+}
+
+.clear:hover {
+    background-color: #ff6363;
+}
+
+.clear:active {
+    background-color: #ff3f3f;
+}
+
+.equal {
+    background-color: #4a90e2;
+    color: #ffffff;
+}
+
+.equal:hover {
+    background-color: gainsboro
