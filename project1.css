@@ -1,0 +1,136 @@
+header{
+    display: flex;
+    background-color: rgb(242, 209, 25);
+}
+h1{
+    margin-left: 300px;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(15, 29, 233);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    margin-left: 350px;
+    font-size: 20px;
+    color: rgb(244, 42, 76);
+    text-align: center;
+    padding: 10px;
+}
+.a{
+    padding: 10px;
+    background-color: rgb(252, 252, 254);
+    color: rgb(244, 34, 69);
+    border-radius: 15px;
+}
+body{
+    background-image: url(bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#home{
+    margin-left: 50px;
+    margin-top: 150px;
+    display: flex;
+}
+#content{
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+    margin-top: 160px;
+    margin-right: 40px;
+    font-size: 40px;
+    color: brown;
+}
+#about{
+    margin-top: 150px;
+    display: flex;
+}
+#image{
+    margin-right: 80px;
+}
+#matter{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(14, 14, 240);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#sweets{
+    margin-left: 800px;
+    margin-top: 70px;
+}
+#title1{
+    color: rgb(46, 49, 4);
+    margin-left:750px;
+    font-size: 20px;
+}
+#matter1{
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size: 20px;
+}
+#s{
+    display: flex;
+    margin-left: 350px;
+}
+#hotel{
+    margin-left: 800px;
+    margin-top: 70px;
+}
+#matter2{
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size: 20px;
+}
+#h{
+    margin-left: 700px;
+}
+#bakery{
+    margin-left: 800px;
+    margin-top: 70px;
+}
+#matter3{
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size: 20px;
+}
+#b{
+    margin-left: 700px;
+}
+#green{
+    margin-left: 800px;
+    margin-top: 70px;
+}
+#matter4{
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size: 20px;
+}
+#g{
+    margin-left: 700px;
+}
+#videos{
+    display: flex;
+    white-space: nowrap;
+    margin-top: 100px;
+}
+#vd .slide{
+    display: inline-block;
+}
+#location{
+    font-size: 20px;
+    text-align: center;
+}
+#contact{
+    text-align: center;
+}
+#pre{
+    font-size: 35px;
+}
+footer{
+    padding: 30px;
+    background-color: rgb(233, 211, 85);
+    margin-top: 30px;
+    text-align: center;
+}
